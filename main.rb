@@ -94,11 +94,4 @@ class Node
   end
 end
 
-test = HashMap.new
-
-test.set('bibia', 'Beatriz')
-test.set('jujuba', 'Julio')
-
-puts test.keys()
-puts test.values()
-p test.entries()
+hash = HashMap.new
